@@ -1,11 +1,6 @@
-#!/bin/sh
-# This is a comment!
-echo Hello World
+#!/bin/bash
 
-# Author : Zara Ali
-# Copyright (c) Tutorialspoint.com
-# Script follows here:
-
-echo "What is your name?"
-read PERSON
-echo "Hello, $PERSON"
+# A simple variable example
+greeting=Hello
+name=Tux
+echo $greeting $name
